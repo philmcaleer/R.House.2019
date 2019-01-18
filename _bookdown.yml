@@ -1,4 +1,5 @@
 book_filename: "R.House.2019"
+output_dir: "docs"
 delete_merged_file: true
 language:
   ui:

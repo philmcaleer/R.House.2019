@@ -8,3 +8,21 @@ author: 'Lisa DeBruine'
 ## Making Blogs in Blogdown and GitHub
 
 It's hard!
+
+```
+file.create('docs/.nojekyll')
+```
+
+### .Rprofile
+
+Make a file called `.Rprofile` in your user directory (`~`) and put the following line in it:
+
+```
+options(blogdown.publishDir = "docs")
+```
+
+## Fork my Project
+
+Go to [https://github.com/PsyTeachR/R.House.2019] and click on the Fork button in the upper right.
+
+
