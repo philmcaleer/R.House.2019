@@ -1,0 +1,3 @@
+[
+["lisas-notes.html", "Chapter 2 Lisa’s Notes 2.1 Making Blogs in Blogdown and GitHub 2.2 Fork my Project", " Chapter 2 Lisa’s Notes 2.1 Making Blogs in Blogdown and GitHub It’s hard! file.create(&#39;docs/.nojekyll&#39;) 2.1.1 .Rprofile Make a file called .Rprofile in your user directory (~) and put the following line in it: options(blogdown.publishDir = &quot;docs&quot;) 2.2 Fork my Project Go to [https://github.com/PsyTeachR/R.House.2019] and click on the Fork button in the upper right. "]
+]
