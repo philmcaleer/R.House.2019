@@ -1,0 +1,10 @@
+---
+title: "Lisa's Notes"
+author: 'Lisa DeBruine'
+---
+
+# Lisa's Notes
+
+## Making Blogs in Blogdown and GitHub
+
+It's hard!
