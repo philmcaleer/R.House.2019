@@ -66,7 +66,7 @@
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="lisas-notes.html"><a href="lisas-notes.html"><i class="fa fa-check"></i><b>2</b> Lisa’s Notes</a><ul>
 <li class="chapter" data-level="2.1" data-path="lisas-notes.html"><a href="lisas-notes.html#making-blogs-in-blogdown-and-github"><i class="fa fa-check"></i><b>2.1</b> Making Blogs in Blogdown and GitHub</a><ul>
-<li class="chapter" data-level="2.1.1" data-path="lisas-notes.html"><a href="lisas-notes.html#rprofile"><i class="fa fa-check"></i><b>2.1.1</b> .Rprofile</a></li>
+<li class="chapter" data-level="2.1.1" data-path="lisas-notes.html"><a href="lisas-notes.html#initial-setup"><i class="fa fa-check"></i><b>2.1.1</b> Initial Setup</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="lisas-notes.html"><a href="lisas-notes.html#fork-my-project"><i class="fa fa-check"></i><b>2.2</b> Fork my Project</a></li>
 </ul></li>
@@ -91,12 +91,16 @@
 <h1><span class="header-section-number">Chapter 2</span> Lisa’s Notes</h1>
 <div id="making-blogs-in-blogdown-and-github" class="section level2">
 <h2><span class="header-section-number">2.1</span> Making Blogs in Blogdown and GitHub</h2>
-<p>It’s hard!</p>
-<pre><code>file.create(&#39;docs/.nojekyll&#39;)</code></pre>
-<div id="rprofile" class="section level3">
-<h3><span class="header-section-number">2.1.1</span> .Rprofile</h3>
-<p>Make a file called <code>.Rprofile</code> in your user directory (<code>~</code>) and put the following line in it:</p>
-<pre><code>options(blogdown.publishDir = &quot;docs&quot;)</code></pre>
+<div id="initial-setup" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Initial Setup</h3>
+<ol style="list-style-type: decimal">
+<li><p>Make <a href="https://github.com/new">new repository on Github</a></p></li>
+<li><p>In RStudio, go to File &gt; New Project… and select Version Control &gt; Git</p></li>
+<li><p>Make a file called <code>.Rprofile</code> in your user directory (<code>~</code>) and put the following line in it:</p>
+<pre><code>options(blogdown.publishDir = &quot;docs&quot;)</code></pre></li>
+<li><p>Run the following command in the Console window of RStudio.</p>
+<pre><code>file.create(&#39;docs/.nojekyll&#39;)</code></pre></li>
+</ol>
 </div>
 </div>
 <div id="fork-my-project" class="section level2">
