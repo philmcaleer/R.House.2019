@@ -1,0 +1,13 @@
+# Helena's R.House Notes
+
+Learning about Blogdown and Bookdown in R
+
+```{r eval = FALSE}
+#for rendering the book
+
+bookdown::render_book("index. Rmd" , bookdown::gitbook)
+
+
+```
+
+Debugging making things work on PC - and in R
