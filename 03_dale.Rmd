@@ -1,0 +1,9 @@
+# Dale's Notes
+
+## Sea Donkeys
+
+On Islay we saw many sea donkeys.
+
+```{r how_to, eval = FALSE}
+bookdown::render_book("index.Rmd", bookdown::gitbook())
+```
