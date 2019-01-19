@@ -7,6 +7,7 @@ author: 'Lisa DeBruine'
 
 ## Making Blogs in Blogdown and GitHub
 
+[Happy Git with R](https://happygitwithr.com) is an awesome resource for learning to use version control with your R projects.
 
 ### Initial Setup
 
@@ -24,6 +25,8 @@ author: 'Lisa DeBruine'
     ```
     file.create('docs/.nojekyll')
     ```
+
+If you have an existing project and want to add it to a new GitHub repository, follow the instructions at [Happy Git with R](https://happygitwithr.com/existing-github-first.html)
 
 ## Fork my Project
 
