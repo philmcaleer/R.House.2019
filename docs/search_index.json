@@ -1,3 +1,0 @@
-[
-["heathers-notes.html", "Chapter 2 Heather’s notes", " Chapter 2 Heather’s notes Learning with Lisa - how to render the book bookdown::render_book(&quot;index.Rmd&quot;, bookdown::gitbook()) "]
-]
